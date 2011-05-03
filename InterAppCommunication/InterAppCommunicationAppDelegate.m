@@ -12,10 +12,14 @@
 
 
 @synthesize window=_window;
+@synthesize mainViewController=_mainViewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    CGRect r = [[UIScreen mainScreen] applicationFrame];
+    self.mainViewController = [[MainViewController alloc] initWithNibName:@"MainViewController" bundle:nil];
+    _mainViewController.view.frame = r;
+    [_window addSubview:_mainViewController.view];
     [self.window makeKeyAndVisible];
     return YES;
 }

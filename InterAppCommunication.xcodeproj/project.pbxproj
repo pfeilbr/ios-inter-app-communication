@@ -17,6 +17,8 @@
 		C5C9617F137048C800780921 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5C9617D137048C800780921 /* MainWindow_iPhone.xib */; };
 		C5C96183137048C800780921 /* InterAppCommunicationAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C96182137048C800780921 /* InterAppCommunicationAppDelegate_iPad.m */; };
 		C5C96186137048C800780921 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5C96184137048C800780921 /* MainWindow_iPad.xib */; };
+		C5C9618E1370493600780921 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C9618D1370493600780921 /* MainViewController.m */; };
+		C5C9619013704D4E00780921 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5C9618F13704D4E00780921 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,18 +26,21 @@
 		C5C96167137048C800780921 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C5C96169137048C800780921 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C5C9616B137048C800780921 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C5C9616F137048C800780921 /* InterAppCommunication-Info.plist */ = {isa = PBXFileReference; path = "InterAppCommunication-Info.plist"; sourceTree = "<group>"; };
+		C5C9616F137048C800780921 /* InterAppCommunication-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InterAppCommunication-Info.plist"; sourceTree = "<group>"; };
 		C5C96171137048C800780921 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C5C96173137048C800780921 /* InterAppCommunication-Prefix.pch */ = {isa = PBXFileReference; path = "InterAppCommunication-Prefix.pch"; sourceTree = "<group>"; };
+		C5C96173137048C800780921 /* InterAppCommunication-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InterAppCommunication-Prefix.pch"; sourceTree = "<group>"; };
 		C5C96174137048C800780921 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C5C96176137048C800780921 /* InterAppCommunicationAppDelegate.h */ = {isa = PBXFileReference; path = InterAppCommunicationAppDelegate.h; sourceTree = "<group>"; };
+		C5C96176137048C800780921 /* InterAppCommunicationAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterAppCommunicationAppDelegate.h; sourceTree = "<group>"; };
 		C5C96177137048C800780921 /* InterAppCommunicationAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterAppCommunicationAppDelegate.m; sourceTree = "<group>"; };
-		C5C9617A137048C800780921 /* InterAppCommunicationAppDelegate_iPhone.h */ = {isa = PBXFileReference; name = InterAppCommunicationAppDelegate_iPhone.h; path = iPhone/InterAppCommunicationAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		C5C9617A137048C800780921 /* InterAppCommunicationAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = InterAppCommunicationAppDelegate_iPhone.h; path = iPhone/InterAppCommunicationAppDelegate_iPhone.h; sourceTree = "<group>"; };
 		C5C9617B137048C800780921 /* InterAppCommunicationAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = InterAppCommunicationAppDelegate_iPhone.m; path = iPhone/InterAppCommunicationAppDelegate_iPhone.m; sourceTree = "<group>"; };
 		C5C9617E137048C800780921 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
-		C5C96181137048C800780921 /* InterAppCommunicationAppDelegate_iPad.h */ = {isa = PBXFileReference; name = InterAppCommunicationAppDelegate_iPad.h; path = iPad/InterAppCommunicationAppDelegate_iPad.h; sourceTree = "<group>"; };
+		C5C96181137048C800780921 /* InterAppCommunicationAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = InterAppCommunicationAppDelegate_iPad.h; path = iPad/InterAppCommunicationAppDelegate_iPad.h; sourceTree = "<group>"; };
 		C5C96182137048C800780921 /* InterAppCommunicationAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = InterAppCommunicationAppDelegate_iPad.m; path = iPad/InterAppCommunicationAppDelegate_iPad.m; sourceTree = "<group>"; };
 		C5C96185137048C800780921 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		C5C9618C1370493600780921 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C5C9618D1370493600780921 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C5C9618F13704D4E00780921 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +92,9 @@
 				C5C96179137048C800780921 /* iPhone */,
 				C5C96180137048C800780921 /* iPad */,
 				C5C9616E137048C800780921 /* Supporting Files */,
+				C5C9618C1370493600780921 /* MainViewController.h */,
+				C5C9618D1370493600780921 /* MainViewController.m */,
+				C5C9618F13704D4E00780921 /* MainViewController.xib */,
 			);
 			path = InterAppCommunication;
 			sourceTree = "<group>";
@@ -172,6 +180,7 @@
 				C5C96172137048C800780921 /* InfoPlist.strings in Resources */,
 				C5C9617F137048C800780921 /* MainWindow_iPhone.xib in Resources */,
 				C5C96186137048C800780921 /* MainWindow_iPad.xib in Resources */,
+				C5C9619013704D4E00780921 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +195,7 @@
 				C5C96178137048C800780921 /* InterAppCommunicationAppDelegate.m in Sources */,
 				C5C9617C137048C800780921 /* InterAppCommunicationAppDelegate_iPhone.m in Sources */,
 				C5C96183137048C800780921 /* InterAppCommunicationAppDelegate_iPad.m in Sources */,
+				C5C9618E1370493600780921 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
